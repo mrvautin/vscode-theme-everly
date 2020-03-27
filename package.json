@@ -1,10 +1,13 @@
 {
     "name": "vscode-theme-everly",
-    "displayName": "everly light theme",
+    "displayName": "everly theme",
     "description": "A beautiful and clean theme for VSCode",
     "version": "0.0.1",
     "license": "MIT",
     "publisher": "mrvautin",
+    "scripts": {
+        "package": "vsce package"
+    },
     "galleryBanner": {
 		"color": "#282C34",
 		"theme": "light"
